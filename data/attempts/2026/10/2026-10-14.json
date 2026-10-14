@@ -523,6 +523,12 @@
             "detail": "spo2=37"
         },
         {
+            "t": "2026-10-14T18:37:59Z",
+            "kind": "bp",
+            "outcome": "timeout",
+            "ms": 65014
+        },
+        {
             "t": "2026-10-14T18:38:35Z",
             "kind": "battery",
             "outcome": "ok",
@@ -551,6 +557,20 @@
             "kind": "steps",
             "outcome": "ok",
             "ms": 568
+        },
+        {
+            "t": "2026-10-14T18:39:52Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 20008,
+            "detail": "records=1"
+        },
+        {
+            "t": "2026-10-14T18:39:52Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 0,
+            "detail": "spo2=37"
         }
     ]
 }
