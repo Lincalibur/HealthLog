@@ -1,0 +1,85 @@
+{
+    "date": "2026-10-14",
+    "attempts": [
+        {
+            "t": "2026-10-14T13:35:02Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 4635
+        },
+        {
+            "t": "2026-10-14T13:35:07Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 92
+        },
+        {
+            "t": "2026-10-14T13:35:07Z",
+            "kind": "clock",
+            "outcome": "ok",
+            "ms": 14
+        },
+        {
+            "t": "2026-10-14T13:35:07Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5047
+        },
+        {
+            "t": "2026-10-14T13:35:07Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 116
+        },
+        {
+            "t": "2026-10-14T13:35:07Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 96
+        },
+        {
+            "t": "2026-10-14T13:36:12Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 20012,
+            "detail": "records=2"
+        },
+        {
+            "t": "2026-10-14T13:36:12Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 0,
+            "detail": "spo2=37"
+        },
+        {
+            "t": "2026-10-14T13:45:15Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 3964
+        },
+        {
+            "t": "2026-10-14T13:45:19Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 170
+        },
+        {
+            "t": "2026-10-14T13:45:19Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 101
+        },
+        {
+            "t": "2026-10-14T13:45:23Z",
+            "kind": "vibrate",
+            "outcome": "ok",
+            "ms": 6
+        },
+        {
+            "t": "2026-10-14T13:45:32Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 545
+        }
+    ]
+}
