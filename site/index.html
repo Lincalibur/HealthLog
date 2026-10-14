@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HealthLog</title>
+  <meta name="description" content="A budget smartwatch brought back with reverse-engineered Bluetooth, and the readings it logs today.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">HealthLog · for the Genius F1 watch · firmware <span id="fw">3.24</span></p>
+      <h1>A budget smartwatch, brought back with reverse-engineered Bluetooth.</h1>
+      <p class="lede">The vendor app stopped being supported. The watch didn't stop working. An Android app now speaks its protocol directly and logs every reading here.</p>
+      <div class="tiles">
+        <div class="tile"><span class="k">Last sync</span><span class="v" id="t-sync">–</span><span class="s" id="t-sync-s"></span></div>
+        <div class="tile"><span class="k">Days logged</span><span class="v" id="t-days">–</span></div>
+        <div class="tile"><span class="k">Readings logged</span><span class="v" id="t-readings">–</span></div>
+        <div class="tile"><span class="k">Watch battery</span><span class="v" id="t-battery">–</span><span class="s" id="t-battery-s"></span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>How it was done</h2>
+      <ol class="timeline">
+        <li><b>Find the protocol.</b> Decompiled the Wearfit Pro app and cross-checked it against Gadgetbridge's WearFit driver: a Nordic UART service carrying <code>AB LEN FF CMD KIND ARGS</code> frames.</li>
+        <li><b>Prove it on a laptop.</b> A Python/bleak client read battery and firmware, set the clock, made the watch vibrate and streamed live heart rate.</li>
+        <li><b>Hit a wall.</b> Connections started stalling: Linux's Bluetooth stack always opens with an MTU exchange, and this watch never answers it.</li>
+        <li><b>Diagnose it.</b> <code>btmon</code> captures showed the link hanging on that one request.</li>
+        <li><b>Work around it.</b> Talking raw ATT on channel 4 skips the MTU exchange entirely. Android only sends it when asked, so the phone app simply never asks.</li>
+        <li><b>Log it.</b> The phone app syncs readings every 6 hours as a pull request. A check validates them, then this page rebuilds.</li>
+      </ol>
+      <div class="flow" aria-label="Data flow from watch to this page">
+        <div class="node">Genius F1<small>Nordic UART frames</small></div><span class="arrow">→</span>
+        <div class="node">Phone app<small>BLE → Room database</small></div><span class="arrow">→</span>
+        <div class="node">Pull request<small>validate check</small></div><span class="arrow">→</span>
+        <div class="node">main<small>Pages rebuild</small></div><span class="arrow">→</span>
+        <div class="node">This page<small>summary.json</small></div>
+      </div>
+      <p>Full byte layouts: <a class="repo-link" data-path="blob/main/tools/PROTOCOL.md" href="#">tools/PROTOCOL.md</a>.</p>
+    </section>
+
+    <section>
+      <h2>Protocol status</h2>
+      <p class="muted">Success rate over the last 30 days, from every attempt the app logs, including the failures.</p>
+      <table class="status">
+        <thead><tr><th>Feature</th><th>Status</th><th>30-day success</th></tr></thead>
+        <tbody id="features"></tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Readings</h2>
+      <div class="grid">
+        <figure><figcaption>Steps per day</figcaption><div class="chart"><canvas id="c-steps"></canvas></div></figure>
+        <figure><figcaption>Heart rate per day: low to high, dot = average</figcaption><div class="chart"><canvas id="c-hr"></canvas></div></figure>
+        <figure><figcaption>SpO2 and blood pressure <span class="chip experimental">experimental</span></figcaption><div class="chart"><canvas id="c-spot"></canvas></div></figure>
+        <figure><figcaption>Watch battery</figcaption><div class="chart"><canvas id="c-battery"></canvas></div></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Reliability</h2>
+      <p class="muted">Attempts per day by outcome. Flaky features show up honestly here, and so do the improvements.</p>
+      <figure><div class="chart wide"><canvas id="c-rel"></canvas></div></figure>
+    </section>
+
+    <p id="empty" class="notice" hidden>No readings yet: the first phone sync will fill this page.</p>
+  </main>
+
+  <footer class="wrap">
+    <a class="repo-link" data-path="" href="#">Repository</a> ·
+    <a class="repo-link" data-path="tree/main/android" href="#">Android app</a> ·
+    <a class="repo-link" data-path="tree/main/tools" href="#">Laptop tools</a>
+    <p class="muted">No location is ever collected, and no device identifiers are published. Times are UTC.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

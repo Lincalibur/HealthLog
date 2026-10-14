@@ -1,0 +1,84 @@
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --text: #1c1d1f;
+  --muted: #62656b;
+  --line: #e2e2de;
+  --accent: #2563c9;
+  --ok: #1f8a4c;
+  --warn: #b7791f;
+  --bad: #c2412d;
+  --hero: #10151d;
+  --hero-text: #f1f3f6;
+  --c1: #2563c9;
+  --c2: #d1572b;
+  --c3: #1f8a4c;
+  --c4: #8a5cd6;
+  --c5: #8d9096;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121418; --surface: #1a1d22; --text: #e8eaed; --muted: #9aa0a8; --line: #2c3038;
+    --accent: #6ea2f5; --ok: #4cc27f; --warn: #e0a64a; --bad: #ef7660; --hero: #0b0e13;
+    --c1: #6ea2f5; --c2: #f08a5d; --c3: #4cc27f; --c4: #b392f0; --c5: #8d9096;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121418; --surface: #1a1d22; --text: #e8eaed; --muted: #9aa0a8; --line: #2c3038;
+  --accent: #6ea2f5; --ok: #4cc27f; --warn: #e0a64a; --bad: #ef7660; --hero: #0b0e13;
+  --c1: #6ea2f5; --c2: #f08a5d; --c3: #4cc27f; --c4: #b392f0; --c5: #8d9096;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--accent); }
+code { font: 0.9em ui-monospace, "Cascadia Code", Consolas, monospace; }
+.muted { color: var(--muted); }
+
+.hero { background: var(--hero); color: var(--hero-text); padding: 56px 0 40px; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: 12px; opacity: .7; margin: 0 0 12px; }
+.hero h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.15; margin: 0 0 16px; max-width: 22ch; }
+.lede { max-width: 60ch; opacity: .85; margin: 0 0 32px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.tile { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; }
+.tile .k { font-size: 13px; opacity: .7; }
+.tile .v { font-size: 28px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.tile .s { font-size: 13px; opacity: .7; }
+.tile.ok .v { color: #6fdc9b; }
+.tile.warn .v { color: #f3c06b; }
+
+section { padding: 40px 0 8px; }
+h2 { font-size: 22px; margin: 0 0 12px; }
+
+.timeline { padding-left: 20px; max-width: 75ch; }
+.timeline li { margin: 0 0 8px; }
+.flow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 20px 0; }
+.flow .node { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; font-weight: 600; font-size: 14px; }
+.flow .node small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.flow .arrow { color: var(--muted); }
+
+table.status { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.status th, .status td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.status th { font-size: 13px; color: var(--muted); font-weight: 600; }
+.status tr:last-child td { border-bottom: 0; }
+.rate { display: flex; align-items: center; gap: 10px; font-variant-numeric: tabular-nums; }
+.bar { flex: 0 0 100px; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--ok); }
+
+.chip { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; border: 1px solid currentColor; }
+.chip.confirmed { color: var(--ok); }
+.chip.experimental { color: var(--warn); }
+.chip.not-working { color: var(--bad); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+figure { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+figcaption { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.chart { position: relative; height: 240px; }
+.chart.wide { height: 260px; }
+
+.notice { background: var(--surface); border: 1px dashed var(--line); padding: 16px; border-radius: 10px; margin-top: 24px; }
+footer { padding: 40px 16px 56px; color: var(--muted); font-size: 14px; }

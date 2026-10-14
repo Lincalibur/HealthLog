@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-14",
+  "device": { "name": "F1", "firmware": "3.24" },
+  "readings": [
+    { "t": "2026-10-14T11:05:00Z", "type": "hr", "v": 86, "src": "live" },
+    { "t": "2026-10-14T11:05:30Z", "type": "hr", "v": 84, "src": "live" },
+    { "t": "2026-10-14T12:00:00Z", "type": "battery", "v": 80, "src": "snapshot" },
+    { "t": "2026-10-14T12:00:00Z", "type": "steps", "v": 249, "src": "snapshot" }
+  ]
+}

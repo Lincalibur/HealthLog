@@ -1,0 +1,25 @@
+# Laptop tools: reports hold Bluetooth addresses, hostnames and nearby devices.
+tools/reports/
+tools/.venv*/
+tools/.env
+.venv*/
+__pycache__/
+*.pyc
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/.kotlin/
+android/captures/
+android/local.properties
+*.iml
+*.keystore
+*.jks
+
+# Built at deploy time by scripts/build_summary.py
+site/summary.json
+
+.DS_Store
+Thumbs.db

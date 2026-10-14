@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "attempts.schema.json",
+  "title": "HealthLog measurement and sync attempts for one day",
+  "description": "One entry per thing the app tried, successful or not. Powers the reliability charts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "attempts"],
+  "properties": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["t", "kind", "outcome", "ms"],
+        "properties": {
+          "t": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$" },
+          "kind": { "enum": ["connect", "battery", "info", "clock", "vibrate", "steps", "hr", "spo2", "bp", "history", "notify"] },
+          "outcome": { "enum": ["ok", "timeout", "out_of_range", "no_reply", "error"] },
+          "ms": { "type": "integer", "minimum": 0 },
+          "detail": { "type": "string", "maxLength": 500 }
+        }
+      }
+    }
+  }
+}

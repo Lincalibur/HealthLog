@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-14",
+  "attempts": [
+    { "t": "2026-10-14T12:00:00Z", "kind": "connect", "outcome": "ok", "ms": 2140 },
+    { "t": "2026-10-14T12:00:03Z", "kind": "battery", "outcome": "ok", "ms": 310 },
+    { "t": "2026-10-14T12:00:04Z", "kind": "hr", "outcome": "ok", "ms": 9800 },
+    { "t": "2026-10-14T12:00:15Z", "kind": "spo2", "outcome": "out_of_range", "ms": 25000, "detail": "ab0005ff31110025" },
+    { "t": "2026-10-14T12:00:41Z", "kind": "history", "outcome": "no_reply", "ms": 20000 }
+  ]
+}

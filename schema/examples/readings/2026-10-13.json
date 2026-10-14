@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-13",
+  "device": { "name": "F1", "firmware": "3.24" },
+  "readings": [
+    { "t": "2026-10-13T08:00:00Z", "type": "battery", "v": 86, "src": "snapshot" },
+    { "t": "2026-10-13T08:00:00Z", "type": "steps", "v": 120, "src": "snapshot" },
+    { "t": "2026-10-13T08:00:30Z", "type": "hr", "v": 64, "src": "snapshot" },
+    { "t": "2026-10-13T10:00:00Z", "type": "steps", "v": 2350, "src": "snapshot" },
+    { "t": "2026-10-13T10:00:30Z", "type": "hr", "v": 78, "src": "snapshot" },
+    { "t": "2026-10-13T10:01:10Z", "type": "spo2", "v": 97, "src": "spot" },
+    { "t": "2026-10-13T12:00:00Z", "type": "battery", "v": 82, "src": "snapshot" },
+    { "t": "2026-10-13T12:00:00Z", "type": "steps", "v": 5120, "src": "snapshot" },
+    { "t": "2026-10-13T12:05:00Z", "type": "bp", "v": 118, "v2": 76, "src": "spot" }
+  ]
+}

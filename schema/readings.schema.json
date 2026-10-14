@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "readings.schema.json",
+  "title": "HealthLog readings for one day",
+  "description": "Written only by the phone app. No location and no device identifiers: anything outside this schema fails the validate check.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "device", "readings"],
+  "properties": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "device": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "const": "F1" },
+        "firmware": { "type": "string", "pattern": "^\\d{1,3}\\.\\d{2}$" }
+      }
+    },
+    "readings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["t", "type", "v", "src"],
+        "properties": {
+          "t": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$" },
+          "type": { "enum": ["hr", "steps", "spo2", "bp", "battery"] },
+          "v": { "type": "integer", "minimum": 0 },
+          "v2": { "type": "integer", "minimum": 0 },
+          "src": { "enum": ["live", "spot", "history", "snapshot"] }
+        }
+      }
+    }
+  }
+}

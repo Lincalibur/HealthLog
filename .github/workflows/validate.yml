@@ -1,0 +1,27 @@
+# Required check on main: nothing reaches main (or the public page) unless this passes.
+name: validate
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install check-jsonschema
+      - name: readings match the schema
+        run: find data/readings -name '*.json' -print0 2>/dev/null | xargs -0 -r check-jsonschema --schemafile schema/readings.schema.json
+      - name: attempts match the schema
+        run: find data/attempts -name '*.json' -print0 2>/dev/null | xargs -0 -r check-jsonschema --schemafile schema/attempts.schema.json
+      - name: schema examples still validate
+        run: |
+          check-jsonschema --schemafile schema/readings.schema.json schema/examples/readings/*.json
+          check-jsonschema --schemafile schema/attempts.schema.json schema/examples/attempts/*.json
+      - name: no device identifiers or location in data
+        run: |
+          mkdir -p data
+          ! grep -rniE '([0-9a-f]{2}:){5}[0-9a-f]{2}|"(lat|lon|lng|latitude|longitude|location|gps)"' data/
+      - name: sanity rules (bpm 30-220, SpO2 70-100, steps >= 0, ...)
+        run: python scripts/build_summary.py --check
