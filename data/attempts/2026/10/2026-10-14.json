@@ -80,6 +80,225 @@
             "kind": "steps",
             "outcome": "ok",
             "ms": 545
+        },
+        {
+            "t": "2026-10-14T13:46:04Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 468
+        },
+        {
+            "t": "2026-10-14T13:46:05Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 547
+        },
+        {
+            "t": "2026-10-14T13:46:05Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 562
+        },
+        {
+            "t": "2026-10-14T13:46:06Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5505
+        },
+        {
+            "t": "2026-10-14T13:47:00Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 456
+        },
+        {
+            "t": "2026-10-14T13:47:01Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 466
+        },
+        {
+            "t": "2026-10-14T13:47:01Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 575
+        },
+        {
+            "t": "2026-10-14T13:47:02Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5301
+        },
+        {
+            "t": "2026-10-14T13:48:10Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 561
+        },
+        {
+            "t": "2026-10-14T13:48:10Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 418
+        },
+        {
+            "t": "2026-10-14T13:48:11Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 563
+        },
+        {
+            "t": "2026-10-14T13:48:12Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5453
+        },
+        {
+            "t": "2026-10-14T13:49:13Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 592
+        },
+        {
+            "t": "2026-10-14T13:49:13Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 526
+        },
+        {
+            "t": "2026-10-14T13:49:14Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 466
+        },
+        {
+            "t": "2026-10-14T13:49:15Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5242
+        },
+        {
+            "t": "2026-10-14T13:53:28Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 380
+        },
+        {
+            "t": "2026-10-14T13:53:29Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 538
+        },
+        {
+            "t": "2026-10-14T13:53:29Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 583
+        },
+        {
+            "t": "2026-10-14T13:53:30Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5378
+        },
+        {
+            "t": "2026-10-14T13:55:10Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 20017,
+            "detail": "records=1"
+        },
+        {
+            "t": "2026-10-14T13:55:10Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 0,
+            "detail": "spo2=37"
+        },
+        {
+            "t": "2026-10-14T13:55:47Z",
+            "kind": "vibrate",
+            "outcome": "ok",
+            "ms": 19
+        },
+        {
+            "t": "2026-10-14T13:56:29Z",
+            "kind": "bp",
+            "outcome": "timeout",
+            "ms": 65117
+        },
+        {
+            "t": "2026-10-14T14:19:34Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 3731
+        },
+        {
+            "t": "2026-10-14T14:19:38Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 99
+        },
+        {
+            "t": "2026-10-14T14:19:38Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 155
+        },
+        {
+            "t": "2026-10-14T14:33:15Z",
+            "kind": "vibrate",
+            "outcome": "ok",
+            "ms": 32
+        },
+        {
+            "t": "2026-10-14T15:00:26Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 2379
+        },
+        {
+            "t": "2026-10-14T15:00:28Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 153
+        },
+        {
+            "t": "2026-10-14T15:00:28Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 138
+        },
+        {
+            "t": "2026-10-14T15:00:33Z",
+            "kind": "bp",
+            "outcome": "timeout",
+            "ms": 70276
+        },
+        {
+            "t": "2026-10-14T15:05:12Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 1,
+            "detail": "spo2=37"
+        },
+        {
+            "t": "2026-10-14T15:16:25Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 1156
+        },
+        {
+            "t": "2026-10-14T15:16:26Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 852
+        },
+        {
+            "t": "2026-10-14T15:16:27Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 552
         }
     ]
 }
