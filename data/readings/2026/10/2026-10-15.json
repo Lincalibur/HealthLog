@@ -204,6 +204,140 @@
             "type": "steps",
             "v": 502,
             "src": "history"
+        },
+        {
+            "t": "2026-10-15T12:48:13Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T12:48:14Z",
+            "type": "steps",
+            "v": 676,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T12:48:19Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T12:51:13Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T12:51:13Z",
+            "type": "steps",
+            "v": 676,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T12:51:19Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T12:52:20Z",
+            "type": "steps",
+            "v": 676,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-15T14:29:00Z",
+            "type": "bp",
+            "v": 143,
+            "v2": 87,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-15T14:40:00Z",
+            "type": "bp",
+            "v": 125,
+            "v2": 77,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-15T17:58:39Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:58:39Z",
+            "type": "steps",
+            "v": 2064,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:58:42Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:58:42Z",
+            "type": "steps",
+            "v": 2064,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:58:47Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:58:50Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:59:13Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:59:13Z",
+            "type": "steps",
+            "v": 2064,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:59:14Z",
+            "type": "steps",
+            "v": 2064,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T17:59:20Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T18:14:50Z",
+            "type": "steps",
+            "v": 2064,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-15T19:16:30Z",
+            "type": "battery",
+            "v": 40,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T19:16:30Z",
+            "type": "steps",
+            "v": 2142,
+            "src": "snapshot"
         }
     ]
 }
