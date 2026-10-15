@@ -606,6 +606,24 @@
             "outcome": "out_of_range",
             "ms": 1,
             "detail": "spo2=37"
+        },
+        {
+            "t": "2026-10-15T19:16:28Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 732
+        },
+        {
+            "t": "2026-10-15T19:16:29Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 561
+        },
+        {
+            "t": "2026-10-15T19:16:30Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 554
         }
     ]
 }

@@ -326,6 +326,18 @@
             "type": "steps",
             "v": 2064,
             "src": "history"
+        },
+        {
+            "t": "2026-10-15T19:16:30Z",
+            "type": "battery",
+            "v": 40,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-15T19:16:30Z",
+            "type": "steps",
+            "v": 2142,
+            "src": "snapshot"
         }
     ]
 }
