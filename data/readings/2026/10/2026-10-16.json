@@ -1,0 +1,191 @@
+{
+    "date": "2026-10-16",
+    "device": {
+        "name": "F1",
+        "firmware": "3.24"
+    },
+    "readings": [
+        {
+            "t": "2026-10-16T06:22:57Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T06:22:57Z",
+            "type": "steps",
+            "v": 0,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T06:23:02Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T06:23:02Z",
+            "type": "steps",
+            "v": 0,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T06:23:08Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:24:00Z",
+            "type": "hr",
+            "v": 101,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-16T07:26:00Z",
+            "type": "bp",
+            "v": 117,
+            "v2": 77,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-16T07:27:00Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:27:00Z",
+            "type": "steps",
+            "v": 356,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:27:06Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:27:35Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:27:35Z",
+            "type": "steps",
+            "v": 356,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:27:40Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T07:29:03Z",
+            "type": "steps",
+            "v": 356,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-16T08:08:00Z",
+            "type": "bp",
+            "v": 128,
+            "v2": 87,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-16T08:24:31Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T08:24:31Z",
+            "type": "steps",
+            "v": 491,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T08:24:36Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T08:25:37Z",
+            "type": "steps",
+            "v": 491,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-16T08:46:50Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T09:43:57Z",
+            "type": "steps",
+            "v": 588,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T10:46:33Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T10:46:50Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T10:46:50Z",
+            "type": "steps",
+            "v": 934,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T10:46:56Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T10:47:57Z",
+            "type": "steps",
+            "v": 934,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-16T14:07:46Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T14:07:46Z",
+            "type": "steps",
+            "v": 1333,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T14:07:50Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-16T14:07:50Z",
+            "type": "steps",
+            "v": 1333,
+            "src": "snapshot"
+        }
+    ]
+}
