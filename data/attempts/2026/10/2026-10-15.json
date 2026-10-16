@@ -621,9 +621,53 @@
         },
         {
             "t": "2026-10-15T19:16:30Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5220
+        },
+        {
+            "t": "2026-10-15T19:16:30Z",
             "kind": "steps",
             "outcome": "ok",
             "ms": 554
+        },
+        {
+            "t": "2026-10-15T19:16:59Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 575
+        },
+        {
+            "t": "2026-10-15T19:16:59Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 538
+        },
+        {
+            "t": "2026-10-15T19:17:00Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5027
+        },
+        {
+            "t": "2026-10-15T19:17:00Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 566
+        },
+        {
+            "t": "2026-10-15T19:33:42Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 240300,
+            "detail": "records=1"
+        },
+        {
+            "t": "2026-10-15T19:33:42Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 0,
+            "detail": "spo2=37"
         }
     ]
 }
