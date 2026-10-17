@@ -463,6 +463,13 @@
             "outcome": "out_of_range",
             "ms": 1,
             "detail": "spo2=37"
+        },
+        {
+            "t": "2026-10-16T21:11:23Z",
+            "kind": "connect",
+            "outcome": "error",
+            "ms": 30015,
+            "detail": "Request failed with status -5"
         }
     ]
 }
