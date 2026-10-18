@@ -295,6 +295,18 @@
         },
         {
             "t": "2026-10-17T15:06:30Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 4847
+        },
+        {
+            "t": "2026-10-17T15:06:30Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 4957
+        },
+        {
+            "t": "2026-10-17T15:06:30Z",
             "kind": "steps",
             "outcome": "ok",
             "ms": 96
@@ -304,6 +316,81 @@
             "kind": "steps",
             "outcome": "ok",
             "ms": 212
+        },
+        {
+            "t": "2026-10-17T15:07:28Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 14156
+        },
+        {
+            "t": "2026-10-17T15:07:42Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 607
+        },
+        {
+            "t": "2026-10-17T15:07:42Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 614
+        },
+        {
+            "t": "2026-10-17T15:07:42Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 534
+        },
+        {
+            "t": "2026-10-17T15:07:42Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 535
+        },
+        {
+            "t": "2026-10-17T15:07:43Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 518
+        },
+        {
+            "t": "2026-10-17T15:07:43Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 1087
+        },
+        {
+            "t": "2026-10-17T15:07:44Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5248
+        },
+        {
+            "t": "2026-10-17T15:07:44Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5812
+        },
+        {
+            "t": "2026-10-17T15:13:35Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 171436,
+            "detail": "records=1"
+        },
+        {
+            "t": "2026-10-17T15:13:35Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 171438,
+            "detail": "records=1"
+        },
+        {
+            "t": "2026-10-17T15:13:35Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 0,
+            "detail": "spo2=37"
         }
     ]
 }

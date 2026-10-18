@@ -1,0 +1,78 @@
+{
+    "date": "2026-10-18",
+    "attempts": [
+        {
+            "t": "2026-10-18T11:53:04Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 2329
+        },
+        {
+            "t": "2026-10-18T11:53:06Z",
+            "kind": "clock",
+            "outcome": "ok",
+            "ms": 61
+        },
+        {
+            "t": "2026-10-18T11:53:07Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 103
+        },
+        {
+            "t": "2026-10-18T11:53:07Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 4981
+        },
+        {
+            "t": "2026-10-18T11:53:07Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 127
+        },
+        {
+            "t": "2026-10-18T11:53:07Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 166
+        },
+        {
+            "t": "2026-10-18T11:53:22Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 1749
+        },
+        {
+            "t": "2026-10-18T11:53:24Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 1731
+        },
+        {
+            "t": "2026-10-18T11:53:34Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 807
+        },
+        {
+            "t": "2026-10-18T11:53:39Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 1310
+        },
+        {
+            "t": "2026-10-18T11:53:41Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 1736
+        },
+        {
+            "t": "2026-10-18T11:53:42Z",
+            "kind": "steps",
+            "outcome": "no_reply",
+            "ms": 2009,
+            "detail": "FEA1 not readable"
+        }
+    ]
+}

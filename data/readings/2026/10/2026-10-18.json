@@ -1,0 +1,45 @@
+{
+    "date": "2026-10-18",
+    "device": {
+        "name": "F1",
+        "firmware": "3.24"
+    },
+    "readings": [
+        {
+            "t": "2026-10-18T11:53:07Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-18T11:53:07Z",
+            "type": "steps",
+            "v": 456,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-18T11:53:12Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-18T11:53:26Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-18T11:53:35Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-18T11:53:42Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        }
+    ]
+}
