@@ -1,0 +1,121 @@
+{
+    "date": "2026-10-19",
+    "attempts": [
+        {
+            "t": "2026-10-19T06:47:19Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 2839
+        },
+        {
+            "t": "2026-10-19T06:47:22Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 121
+        },
+        {
+            "t": "2026-10-19T06:47:22Z",
+            "kind": "clock",
+            "outcome": "ok",
+            "ms": 66
+        },
+        {
+            "t": "2026-10-19T06:47:22Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 4614
+        },
+        {
+            "t": "2026-10-19T06:47:22Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 134
+        },
+        {
+            "t": "2026-10-19T06:47:22Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 178
+        },
+        {
+            "t": "2026-10-19T06:47:28Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 1064
+        },
+        {
+            "t": "2026-10-19T06:47:30Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 510
+        },
+        {
+            "t": "2026-10-19T06:47:42Z",
+            "kind": "clock",
+            "outcome": "ok",
+            "ms": 8
+        },
+        {
+            "t": "2026-10-19T06:48:11Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 829
+        },
+        {
+            "t": "2026-10-19T06:48:19Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 415
+        },
+        {
+            "t": "2026-10-19T06:48:20Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 549
+        },
+        {
+            "t": "2026-10-19T06:48:20Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 575
+        },
+        {
+            "t": "2026-10-19T06:48:21Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 5556
+        },
+        {
+            "t": "2026-10-19T06:49:27Z",
+            "kind": "history",
+            "outcome": "ok",
+            "ms": 20013,
+            "detail": "records=1"
+        },
+        {
+            "t": "2026-10-19T06:49:27Z",
+            "kind": "spo2",
+            "outcome": "out_of_range",
+            "ms": 1,
+            "detail": "spo2=37"
+        },
+        {
+            "t": "2026-10-19T06:56:41Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 524
+        },
+        {
+            "t": "2026-10-19T06:56:42Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 560
+        },
+        {
+            "t": "2026-10-19T06:56:42Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 567
+        }
+    ]
+}

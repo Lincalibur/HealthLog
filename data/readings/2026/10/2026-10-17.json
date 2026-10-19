@@ -130,6 +130,42 @@
             "type": "steps",
             "v": 3914,
             "src": "snapshot"
+        },
+        {
+            "t": "2026-10-17T15:06:35Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-17T15:07:43Z",
+            "type": "battery",
+            "v": 80,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-17T15:07:43Z",
+            "type": "steps",
+            "v": 3914,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-17T15:07:44Z",
+            "type": "steps",
+            "v": 3914,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-17T15:07:49Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-17T15:13:36Z",
+            "type": "steps",
+            "v": 3914,
+            "src": "history"
         }
     ]
 }
