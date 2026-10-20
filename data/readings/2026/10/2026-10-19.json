@@ -64,6 +64,84 @@
             "type": "steps",
             "v": 25,
             "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T06:56:48Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T06:57:12Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T06:57:13Z",
+            "type": "steps",
+            "v": 25,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T06:57:18Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T06:58:19Z",
+            "type": "steps",
+            "v": 25,
+            "src": "history"
+        },
+        {
+            "t": "2026-10-19T08:05:32Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:16:26Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:16:27Z",
+            "type": "steps",
+            "v": 677,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:16:32Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:16:34Z",
+            "type": "battery",
+            "v": 60,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:16:35Z",
+            "type": "steps",
+            "v": 677,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:16:40Z",
+            "type": "hr",
+            "v": 86,
+            "src": "snapshot"
+        },
+        {
+            "t": "2026-10-19T09:31:33Z",
+            "type": "steps",
+            "v": 687,
+            "src": "history"
         }
     ]
 }
