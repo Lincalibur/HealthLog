@@ -1,0 +1,41 @@
+{
+    "date": "2026-10-20",
+    "attempts": [
+        {
+            "t": "2026-10-20T16:07:41Z",
+            "kind": "connect",
+            "outcome": "ok",
+            "ms": 2456
+        },
+        {
+            "t": "2026-10-20T16:07:43Z",
+            "kind": "battery",
+            "outcome": "ok",
+            "ms": 91
+        },
+        {
+            "t": "2026-10-20T16:07:43Z",
+            "kind": "clock",
+            "outcome": "ok",
+            "ms": 95
+        },
+        {
+            "t": "2026-10-20T16:07:43Z",
+            "kind": "info",
+            "outcome": "ok",
+            "ms": 135
+        },
+        {
+            "t": "2026-10-20T16:07:44Z",
+            "kind": "hr",
+            "outcome": "ok",
+            "ms": 4754
+        },
+        {
+            "t": "2026-10-20T16:07:44Z",
+            "kind": "steps",
+            "outcome": "ok",
+            "ms": 117
+        }
+    ]
+}
